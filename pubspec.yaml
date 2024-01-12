@@ -1,0 +1,43 @@
+name: jajankuy
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  google_maps_flutter: ^2.5.0
+  intl: ^0.19.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Arial
+      fonts: 
+        - asset: assets/fonts/ArialBoldMT.ttf
+          weight: 700
+        - asset: assets/fonts/ArialMT.ttf
+          weight: 400
+    - family: Rounded Mplus 1c Bold
+      fonts: 
+        - asset: assets/fonts/RoundedMplus1cBold.ttf
+          weight: 700
+    - family: Arial Rounded MT Bold
+      fonts: 
+        - asset: assets/fonts/ArialRoundedMTBold.ttf
+          weight: 400
+    - family: Rounded Mplus 1c
+      fonts: 
+        - asset: assets/fonts/RoundedMplus1cExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/RoundedMplus1cMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RoundedMplus1cRegular.ttf
+          weight: 400
